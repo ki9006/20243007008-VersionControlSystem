@@ -39,15 +39,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gap="12dp">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/loginButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Log In" />
+            android:text="Log In"
+            android:layout_marginEnd="12dp"/>
 
         <Button
             android:id="@+id/cancelButton"
@@ -57,5 +57,7 @@
             android:text="Cancel"/>
 
     </LinearLayout>
+
+
 
 </LinearLayout>
